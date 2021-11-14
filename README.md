@@ -4,3 +4,8 @@ This repository contains the exercises I have been doing for myself to learn [GN
 Guile](https://www.gnu.org/software/guile/).
 
 The code is heavily inspired by the [Turtle tutorial](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html).
+
+## 01 - Compiling, linking and REPL
+
+My first exercise was to setup building with `autotools` and to create a simple C program which links `guile` and can
+execute Scheme code.

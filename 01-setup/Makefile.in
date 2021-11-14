@@ -1,0 +1,8 @@
+CC=@CC@
+CFLAGS=@GUILE_CFLAGS@
+LIBS=@GUILE_LIBS@
+
+01-setup: 01-setup.o
+	${CC} 01-setup.o ${LIBS} -o 01-setup
+01-setup.o: 01-setup.c
+	${CC} -c ${CFLAGS} 01-setup.c
