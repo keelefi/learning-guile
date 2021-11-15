@@ -15,7 +15,7 @@ when the program, i.e. `main_func()` is done.
 The project should contain the following files:
 
     $ ls
-    configure.ac 01-setup.c Makefile.in README.md
+    01-setup.c configure.ac Makefile.in README.md
 
 Use `autoconf` to create `configure`:
 
