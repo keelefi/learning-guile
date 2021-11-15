@@ -13,3 +13,7 @@ execute Scheme code.
 ## 02 - Separate script file
 
 In the second exercise, we invoke Scheme code from a separate script file.
+
+## 03 - Call C functions from the script file
+
+In the third exercise, we add a function in the C program and call that function from the script file.

@@ -1,0 +1,8 @@
+CC=@CC@
+CFLAGS=@GUILE_CFLAGS@
+LIBS=@GUILE_LIBS@
+
+03-functions: 03-functions.o
+	${CC} 03-functions.o ${LIBS} -o 03-functions
+03-functions.o: 03-functions.c
+	${CC} -c ${CFLAGS} 03-functions.c
