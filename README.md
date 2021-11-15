@@ -5,6 +5,9 @@ Guile](https://www.gnu.org/software/guile/).
 
 The code is heavily inspired by the [Tortoise tutorial](https://www.gnu.org/software/guile/docs/guile-tut/tutorial.html).
 
+All exercises use `autoconf` to build. See the example in the [guile
+manual](https://www.gnu.org/software/guile/manual/html_node/A-Sample-Guile-Main-Program.html#Building-the-Example-with-Autoconf).
+
 ## 01 - Compiling, linking and REPL
 
 My first exercise was to setup building with `autotools` and to create a simple C program which links `guile` and can
