@@ -9,7 +9,7 @@ definition in the script file.
 The project should contain the following files:
 
     $ ls
-    02-setup.c configure.ac Makefile.in README.md script.scm
+    02-script.c configure.ac Makefile.in README.md script.scm
 
 Use `autoconf` to create `configure`:
 
