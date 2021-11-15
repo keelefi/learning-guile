@@ -1,0 +1,8 @@
+CC=@CC@
+CFLAGS=@GUILE_CFLAGS@
+LIBS=@GUILE_LIBS@
+
+04-records: 04-records.o
+	${CC} 04-records.o ${LIBS} -o 04-records
+04-records.o: 04-records.c
+	${CC} -c ${CFLAGS} 04-records.c

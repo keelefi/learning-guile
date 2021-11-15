@@ -17,3 +17,7 @@ In the second exercise, we invoke Scheme code from a separate script file.
 ## 03 - Call C functions from the script file
 
 In the third exercise, we add a function in the C program and call that function from the script file.
+
+## 04 - SRFI-9 Records
+
+In the fourth exercise, we add SRFI-9 Records into the script file.
