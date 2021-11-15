@@ -9,3 +9,7 @@ The code is heavily inspired by the [Turtle tutorial](https://www.gnu.org/softwa
 
 My first exercise was to setup building with `autotools` and to create a simple C program which links `guile` and can
 execute Scheme code.
+
+## 02 - Separate script file
+
+In the second exercise, we invoke Scheme code from a separate script file.

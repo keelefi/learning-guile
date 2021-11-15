@@ -1,0 +1,8 @@
+CC=@CC@
+CFLAGS=@GUILE_CFLAGS@
+LIBS=@GUILE_LIBS@
+
+02-script: 02-script.o
+	${CC} 02-script.o ${LIBS} -o 02-script
+02-script.o: 02-script.c
+	${CC} -c ${CFLAGS} 02-script.c
