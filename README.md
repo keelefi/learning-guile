@@ -38,3 +38,8 @@ Standalone script to test how references work in Scheme / Guile.
 ## nn-promises
 
 Standalone script to test how promises work in Scheme / Guile.
+
+## nn-promises
+
+Standalone script to test how testing works in Scheme / Guile. We use
+[SRFI-64](https://srfi.schemers.org/srfi-64/srfi-64.html) to enable testing.
