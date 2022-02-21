@@ -43,3 +43,8 @@ Standalone script to test how promises work in Scheme / Guile.
 
 Standalone script to test how testing works in Scheme / Guile. We use
 [SRFI-64](https://srfi.schemers.org/srfi-64/srfi-64.html) to enable testing.
+
+## nn-exceptions
+
+Standalone script to test how exceptions work in Scheme. As far as I understand, this type of exception raising and
+handling is specific to Guile Scheme.
