@@ -48,3 +48,7 @@ Standalone script to test how testing works in Scheme / Guile. We use
 
 Standalone script to test how exceptions work in Scheme. As far as I understand, this type of exception raising and
 handling is specific to Guile Scheme.
+
+## nn-json
+
+Standalone script to test how [guile-json](https://github.com/aconchillo/guile-json) works.
