@@ -1,0 +1,6 @@
+{
+    "employees": {
+        "john": {"age": 40, "salary": 1337},
+        "joe": {"age": 25, "salary": 666}
+    }
+}

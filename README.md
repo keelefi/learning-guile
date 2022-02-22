@@ -52,3 +52,7 @@ handling is specific to Guile Scheme.
 ## nn-json
 
 Standalone script to test how [guile-json](https://github.com/aconchillo/guile-json) works.
+
+## nn-reading-files
+
+Read a file in 3 different ways.
