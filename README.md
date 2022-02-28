@@ -56,3 +56,9 @@ Standalone script to test how [guile-json](https://github.com/aconchillo/guile-j
 ## nn-reading-files
 
 Read a file in 3 different ways.
+
+## nn-association-lists
+
+Add a function that compares if two association lists are equivalent with each other. This is distinct from `equal?` in
+that `equal?` wants the order to be the same for two alists to be equivalent. Instead, our function disregards order
+and only cares about contents.
