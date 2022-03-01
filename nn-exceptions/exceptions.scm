@@ -48,3 +48,20 @@
     (lambda () (raise-exception (make-my-exception "my exception message")))
     #:unwind? #t
     #:unwind-for-type &my-exception)
+
+(newline)
+
+(define-exception-type
+    &my-derived-exception       ; name
+    &my-exception               ; parent
+    make-my-derived-exception   ; constructor
+    my-derived-exception?       ; predicate
+    (extra my-derived-exception-extra))
+
+(with-exception-handler
+    (lambda (exception-obj)
+        (display "My derived exception message: ") (display (my-exception-message exception-obj)) (newline)
+        (display "My derived exception extra: ") (display (my-derived-exception-extra exception-obj)) (newline))
+    (lambda () (raise-exception (make-my-derived-exception "the message" "the extra")))
+    #:unwind? #t
+    #:unwind-for-type &my-derived-exception)
